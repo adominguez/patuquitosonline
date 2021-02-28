@@ -19,6 +19,10 @@ function SEO({ description, lang='es', meta, title, robots="index, follow" }) {
           content: robots
         },
         {
+          name: `google-site-verification`,
+          content: `i-n1_GoBxnct4Y6QK8TEO-HXJyt8gu76-CD41_lSUzY`
+        },
+        {
           name: `description`,
           content: metaDescription,
         },
